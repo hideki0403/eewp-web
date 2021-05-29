@@ -1,1 +1,1 @@
-https://pages.yukineko.me/eewp
+https://pages.yukineko.me/eewp-web
