@@ -1,1 +1,2 @@
-https://pages.yukineko.me/eewp-web
+# EEWPBot Documents
+https://eewp.yukineko.me/

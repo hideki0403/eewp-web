@@ -1,0 +1,3 @@
+baseurl = "https://eewp.yukineko.me/"
+canonifyURLs = true
+publishDir = "../docs"
