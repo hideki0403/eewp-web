@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>更新履歴 on</title><link>https://eewp.yukineko.me/docs/updatelog/</link><description>Recent content in 更新履歴 on</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eewp.yukineko.me/docs/updatelog/index.xml" rel="self" type="application/rss+xml"/><item><title>Ver 3.0.0</title><link>https://eewp.yukineko.me/docs/updatelog/3.0.0/</link><pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate><guid>https://eewp.yukineko.me/docs/updatelog/3.0.0/</guid><description/></item><item><title>~ Ver 2.x.x</title><link>https://eewp.yukineko.me/docs/updatelog/2.x.x/</link><pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate><guid>https://eewp.yukineko.me/docs/updatelog/2.x.x/</guid><description>Version 3.0.0以前の更新履歴はこちらに記載されています</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>更新履歴 on</title><link>https://eewp.yukineko.me/docs/updatelog/</link><description>Recent content in 更新履歴 on</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eewp.yukineko.me/docs/updatelog/index.xml" rel="self" type="application/rss+xml"/><item><title>Ver 3.0.0</title><link>https://eewp.yukineko.me/docs/updatelog/3.0.0/</link><pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate><guid>https://eewp.yukineko.me/docs/updatelog/3.0.0/</guid><description>アップデートに関するご注意 2020年 7月 1日より、Earthquake Early Warning Plus Bot （以下EEWP）をVer 3.0.0に更新いたします。
+今回のアップデートでは設定ファイルの一括更新を行うため、0時から約30分間の間に行った設定は反映されない可能性がありますのでご注意ください。
+【重要】地震速報通知の仕様変更について Ver3.0.0からは、負荷軽減と通知最適化を目的として以下の仕様変更を行わせて頂きます。
+震度3以下の地震速報を受信できなくなります (*1) 地震情報の更新タイミングを 初報/最終報/予想震度変化時 に制限します (*1) DMでの地震速報の受信が(震度を問わず)できなくなります (*2) *1: 月額での支援をしていただける方はこれらの制限がなくなります。詳しくは以下をご覧ください。
+*2: こちらに関してはBotの仕様上、対応することが難しいためVer3.0.0からは廃止となります。
+Earthquake Early Warning Plusは2018年よりサービスを開始し、2021年にはおかげさまで650を超えるサーバーに導入して頂いています。
+沢山のサーバーに導入して頂いている、というのはとても嬉しいことなのですが、導入サーバー数の増加により地震速報を投稿する際にDiscordからアクセスを制限されてしまい、地震情報をお届けすることが出来ないことがあるという状態です。
+これについてはBotを分散ホストさせることで回避することが出来るのですが、個人が運用しているため資金が足りず、これ以上サーバー(VPS)の契約をすることが難しいという状況です。
+そこで、Patreon(月額支援サービス)でご支援して頂ける方を募集させて頂きます。
+ご支援頂いた方にはお礼としてVer3.0.0からの制限を2~5チャンネルで解除できる権利(*3)を付与いたします。
+*3: プランによって異なります
+支援の詳細に関しましてはこちらをご覧ください
+更新内容 予想震度画像を最適化しました これまでは強震モニタの公式レイアウトを参考にした予想震度画像でしたが、Ver3.0.0からは震源地を中心にした「よりわかりやすい」震度予想画像になります。
+また、画像生成ロジックを1から作り直したことで画像が表示されない不具合が改善されます。
+複数地震に対応しました これまでは同時に1つの地震までしか処理できませんでしたが、Ver3.0.0からは同時に2つ、またはそれ以上の地震にも対応します。
+津波情報に対応しました 津波情報が発表された際に現在設定されているチャンネルに津波情報が投稿されます。これはデフォルトで有効になっています。
+チャンネルの設定が簡単になりました Ver3.0.0からはWeb上で設定することが出来るようになります。
+(こちらから設定できます)
+生成されたコマンドを設定したいチャンネルに送信することで設定が反映されます。</description></item><item><title>~ Ver 2.x.x</title><link>https://eewp.yukineko.me/docs/updatelog/2.x.x/</link><pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate><guid>https://eewp.yukineko.me/docs/updatelog/2.x.x/</guid><description>Version 3.0.0以前の更新履歴はこちらに記載されています</description></item></channel></rss>

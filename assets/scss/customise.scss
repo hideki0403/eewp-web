@@ -16,6 +16,20 @@
     }
 }
 
+.docs-links h3:before {
+    content: '■  ';
+}
+
+main h3 {
+    padding-bottom: 12px;
+    border-bottom: solid 5px #9f9f9f;
+}
+
+main h4 {
+    padding-bottom: 8px;
+    border-bottom: solid 2px #9f9f9f;
+}
+
 .navbar {
     margin-top: 0px !important;
 }

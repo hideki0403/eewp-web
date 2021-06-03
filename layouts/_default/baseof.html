@@ -21,6 +21,7 @@
     </div>
     {{ block "sidebar-prefooter" . }}{{ end }}
     {{ block "sidebar-footer" . }}{{ end }}
+    {{ partial "main/scripts.html" . }}
     {{ partial "footer/footer.html" . }}
     {{ if and .IsHome .Site.Params.alert }}
       {{ partial "footer/alert.html" . }}

@@ -7,7 +7,6 @@ menu:
   docs:
     parent: "prologue"
 weight: 120
-toc: true
 ---
 
 1. 地震情報を受け取るためのチャンネルを作成する  

@@ -7,7 +7,6 @@ menu:
   docs:
     parent: "other"
 weight: 100
-toc: true
 ---
 
 このBotは強震モニタ上で配信されている緊急地震速報を受信しています。  

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ツール on</title><link>https://eewp.yukineko.me/tools/</link><description>Recent content in ツール on</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eewp.yukineko.me/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>チャンネル設定ツール</title><link>https://eewp.yukineko.me/tools/settings/</link><pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate><guid>https://eewp.yukineko.me/tools/settings/</guid><description>
+緊急地震速報の投稿
+地震情報の投稿
+津波情報の投稿
+通知震度の設定:
+震度1
+震度2
+震度3
+震度4
+震度5弱
+震度5強
+震度6弱
+震度6強
+震度7
+以下のコマンドを設定したいチャンネルに貼り付けて送信してください
+/eq settings 27
+コマンドをコピー</description></item></channel></rss>

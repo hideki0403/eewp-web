@@ -11,20 +11,26 @@
   url = "/docs/patreon/"
 
 [[docs]]
-  name = "ヘルプ"
+  name = "使い方"
   weight = 30
+  identifier = "use"
+  url = "/docs/use/"
+
+[[docs]]
+  name = "ヘルプ"
+  weight = 40
   identifier = "help"
   url = "/docs/help/"
 
 [[docs]]
   name = "更新履歴"
-  weight = 40
+  weight = 50
   identifier = "updatelog"
   url = "/docs/updatelog/"
 
 [[docs]]
   name = "その他"
-  weight = 50
+  weight = 60
   identifier = "other"
   url = "/docs/other/"
 

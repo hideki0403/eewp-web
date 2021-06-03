@@ -7,7 +7,6 @@ menu:
   docs:
     parent: "other"
 weight: 110
-toc: true
 ---
 
 このBotは自宅にあるサーバーにて稼働しています。  
