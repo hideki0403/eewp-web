@@ -23,7 +23,7 @@
     "build:functions": "netlify-lambda build assets/lambda",
     "build:preview": "npm run build -D -F",
     "cname": "echo eewp.yukineko.me > ./docs/CNAME",
-    "make": "npm run prebuild && npm run build",
+    "make": "npm run prebuild && npm run build && npm run cname",
     "clean": "rimraf public resources functions",
     "lint": "npm run -s lint:scripts && npm run -s lint:styles && npm run -s lint:markdown",
     "lint:scripts": "eslint assets/js assets/lambda config",
