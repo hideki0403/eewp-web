@@ -7,6 +7,7 @@ menu:
   docs:
     parent: "prologue"
 weight: 110
+toc: false
 ---
 
 [こちらをクリックすることでBotを導入することが出来ます。](https://discord.com/api/oauth2/authorize?client_id=460323119651880960&permissions=26624&scope=bot)  

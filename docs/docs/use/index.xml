@@ -1,1 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>使い方 on</title><link>https://eewp.yukineko.me/docs/use/</link><description>Recent content in 使い方 on</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eewp.yukineko.me/docs/use/index.xml" rel="self" type="application/rss+xml"/><item><title>コマンド</title><link>https://eewp.yukineko.me/docs/use/commands/</link><pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate><guid>https://eewp.yukineko.me/docs/use/commands/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>使い方 on</title><link>https://eewp.yukineko.me/docs/use/</link><description>Recent content in 使い方 on</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eewp.yukineko.me/docs/use/index.xml" rel="self" type="application/rss+xml"/><item><title>コマンド</title><link>https://eewp.yukineko.me/docs/use/commands/</link><pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate><guid>https://eewp.yukineko.me/docs/use/commands/</guid><description>EEWPBotで使用できるコマンドの一覧です。
+*マークが付いているコマンドはチャンネル編集権限が必要になります。
+register * このコマンドを実行したチャンネルを地震速報投稿チャンネルに設定します。
+このコマンドはこれらでも実行可能です: reg, r
+unregister * このコマンドを実行したチャンネルの地震速報投稿を解除します。
+このコマンドはこれらでも実行可能です: unreg, unr
+settings * チャンネルに関する設定と確認を行うことが出来ます。
+このコマンドはこれらでも実行可能です: setting, s
+activate チャンネルをアクティベーションすることが出来ます。
+inactivate チャンネルのアクティベーションを解除することが出来ます。
+invite Botを招待するためのURLを生成します。
+about Botについての情報を表示します。
+help これらのコマンドを確認することが出来ます。</description></item><item><title>チャンネル設定</title><link>https://eewp.yukineko.me/docs/use/channel/</link><pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate><guid>https://eewp.yukineko.me/docs/use/channel/</guid><description>チャンネル設定ツールから以下の設定を変更することが出来ます。
+通知震度の変更 緊急地震速報の投稿 地震情報の投稿 津波情報の投稿</description></item></channel></rss>
