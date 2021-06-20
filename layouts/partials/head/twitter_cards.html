@@ -20,7 +20,7 @@
   {{ end -}}
 {{ end -}}
 
-<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:title" content="{{ .Title }} {{ .Site.Params.titleSeparator }} {{ .Site.Params.title }}">
 <meta name="twitter:description" content="">
 {{ with .Site.Social.twitter -}}
   <meta name="twitter:site" content="@{{ . }}">
