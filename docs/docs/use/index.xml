@@ -12,4 +12,4 @@ inactivate チャンネルのアクティベーションを解除することが
 invite Botを招待するためのURLを生成します。
 about Botについての情報を表示します。
 help これらのコマンドを確認することが出来ます。</description></item><item><title>チャンネル設定</title><link>https://eewp.yukineko.me/docs/use/channel/</link><pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate><guid>https://eewp.yukineko.me/docs/use/channel/</guid><description>チャンネル設定ツールから以下の設定を変更することが出来ます。
-通知震度の変更 緊急地震速報の投稿 地震情報の投稿 津波情報の投稿</description></item></channel></rss>
+通知震度の変更 緊急地震速報の投稿 地震情報の投稿 津波情報の投稿 情報更新方法の選択</description></item></channel></rss>
