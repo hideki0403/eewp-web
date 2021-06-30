@@ -7,12 +7,14 @@ $('#settings').on('change', () => {
         'settings-eew': 'EEW',
         'settings-info': 'INFO',
         'settings-tsunami': 'TSUNAMI',
+        'settings-edit': 'EDIT',
     }
     
     var bitflag = {
         EEW: 1 << 0,
         INFO: 1 << 1,
         TSUNAMI: 1 << 2,
+        EDIT: 1 << 3,
     }
 
     data.forEach(setting => {
@@ -22,7 +24,7 @@ $('#settings').on('change', () => {
         }
 
         if(setting.name === 'settings-sindo') {
-            flag |= setting.value << 3
+            flag |= setting.value << 4
         }
     })
 
@@ -63,4 +65,4 @@ function execCopy(string){
     document.body.removeChild(tmp);
   
     return result;
-  }
+}

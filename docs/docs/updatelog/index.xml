@@ -19,4 +19,6 @@ Earthquake Early Warning Plusは2018年よりサービスを開始し、2021年�
 チャンネルの設定が簡単になりました Ver3.0.0からはWeb上で設定することが出来るようになります。
 (こちらから設定できます)
 生成されたコマンドを設定したいチャンネルに送信することで設定が反映されます。
+情報更新方法を変更できるようになりました これまでは一つの投稿を編集することで情報の更新を行っていましたが、更新方法を「新規投稿」か「編集」のどちらかを選ぶことが出来るようになりました。
+最新情報を通知で受け取りたい方には新規投稿がおすすめです。
 設定権限を緩和しました これまではサーバーの管理者権限を持っているユーザーのみチャンネルの登録・解除・設定を行えるように制限をしていましたが、Ver3.0.0からはチャンネル編集権限を保持しているユーザーも登録・解除・設定を行えるようになります。</description></item><item><title>~ Ver 2.x.x</title><link>https://eewp.yukineko.me/docs/updatelog/2.x.x/</link><pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate><guid>https://eewp.yukineko.me/docs/updatelog/2.x.x/</guid><description>Version 3.0.0以前の更新履歴はこちらに記載されています</description></item></channel></rss>
