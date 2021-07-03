@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ヘルプ on</title><link>https://eewp.yukineko.me/docs/help/</link><description>Recent content in ヘルプ on</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://eewp.yukineko.me/docs/help/index.xml" rel="self" type="application/rss+xml"/><item><title>権限について</title><link>https://eewp.yukineko.me/docs/help/permission/</link><pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate><guid>https://eewp.yukineko.me/docs/help/permission/</guid><description>EEWPBotでは悪意のあるユーザーによる意図しない設定変更を防ぐため、一部コマンドに実行権限を設けています。
 以下のコマンドを実行するにはチャンネルの編集権限が必要です。
 register, unregister, settings
-権限に関してましてはサーバーの管理者にお問い合わせください。</description></item></channel></rss>
+権限に関してましてはサーバーの管理者にお問い合わせください。</description></item><item><title>通知震度設定について</title><link>https://eewp.yukineko.me/docs/help/intensity/</link><pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate><guid>https://eewp.yukineko.me/docs/help/intensity/</guid><description>EEWPBotでは、Ver3.0.0より負荷軽減と通知最適化を目的として支援者以外の震度4未満の受信を制限しております。
+こちらの制限については、ご支援いただくことで震度4未満の受信をすることが可能となります。
+詳細についてはこちらをご覧ください。
+既にご支援いただいている方 既にご支援いただいているのにも関わらず、震度4未満に設定できない場合は以下の原因が考えられます。
+■ PatreonとDiscordの連携が出来ていない こちらの記事の手順10から連携をし直してみてください。
+■ 対象のチャンネルをアクティベートしていない 対象のチャンネルで /eq activate と入力し、再度お試しください。</description></item></channel></rss>
