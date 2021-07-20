@@ -5,7 +5,7 @@ draft: false
 images: []
 menu: 
   docs:
-    parent: "updatelog"
+    parent: "release"
 weight: 998
 toc: true
 ---
@@ -51,7 +51,7 @@ Earthquake Early Warning Plusは2018年よりサービスを開始し、2021年�
 
 #### 地震一覧機能を実装しました
 最近発生した地震を見ることができるコマンドを実装しました。  
-`/eq recent`で一覧を表示できます。
+`!eq recent`で一覧を表示できます。
 
 #### チャンネルの設定が簡単になりました
 Ver3.0.0からはWeb上で設定することが出来るようになります。  

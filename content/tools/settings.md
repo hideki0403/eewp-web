@@ -46,7 +46,7 @@ css: ['/css/tools/settings.css']
 {{< /rawhtml >}}
 
 ```
-{{< rawhtml >}}<span id="copy-string">/eq settings <span id="output">4F</span></span>{{< /rawhtml >}}
+{{< rawhtml >}}<span id="copy-string">!eq settings <span id="output">4F</span></span>{{< /rawhtml >}}
 ```
 
 {{< rawhtml >}}<button id="copy" class="btn-square" type="button">コマンドをコピー</button>{{< /rawhtml >}}

@@ -3,7 +3,7 @@
 また、3回にも亘るリファクタリングにより処理の最適化や高速化・高性能化が行われています。</description></item><item><title>導入方法</title><link>https://eewp.yukineko.me/docs/prologue/quick-start/</link><pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate><guid>https://eewp.yukineko.me/docs/prologue/quick-start/</guid><description>こちらをクリックすることでBotを導入することが出来ます。
 Botを導入するとセットアップメッセージが自動的に投稿されますので、それに従って地震情報を受け取るためのチャンネルを設定してください。</description></item><item><title>セットアップ</title><link>https://eewp.yukineko.me/docs/prologue/first-settings/</link><pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate><guid>https://eewp.yukineko.me/docs/prologue/first-settings/</guid><description> 地震情報を受け取るためのチャンネルを作成する
 (既存のチャンネルに設定したいのであればチャンネルの作成は必要ありません。)
-地震情報を受け取りたいチャンネルで/eq registerまたは/eq regと入力します。
+地震情報を受け取りたいチャンネルで!eq registerまたは!eq regと入力します。
 これでセットアップは完了です。
 追加で通知を受け取る際の最低震度設定や、地震情報の投稿の有無を設定することが出来ます。 詳しくは「使い方」の「チャンネル設定」を参照してください。</description></item><item><title>公式Discordサーバー</title><link>https://eewp.yukineko.me/docs/prologue/discord/</link><pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate><guid>https://eewp.yukineko.me/docs/prologue/discord/</guid><description>Earthquake Early Warning Plusの公式Discordサーバーの参加はこちらから！
 Botの更新情報やメンテナンス情報をお知らせします。
