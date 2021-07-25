@@ -6,4 +6,4 @@ images: []
 js: ['/js/jquery.js', '/js/invite.js']
 ---
 
-[画面が切り替わらない場合はここをクリックしてください](https://discord.com/api/oauth2/authorize?client_id=460323119651880960&permissions=26624&scope=bot)
+[画面が切り替わらない場合はここをクリックしてください](https://discord.com/api/oauth2/authorize?client_id=460323119651880960&permissions=2147772416&scope=bot)
