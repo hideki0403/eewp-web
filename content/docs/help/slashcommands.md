@@ -6,7 +6,7 @@ images: []
 menu: 
   docs:
     parent: "help"
-weight: 100
+weight: 120
 ---
 
 Discordのスラッシュコマンドを使用できない場合は権限が付与されていない可能性があります。  
