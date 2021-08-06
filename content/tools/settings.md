@@ -38,7 +38,7 @@ css: ['/css/tools/settings.css']
             <option value="8">震度6強</option>
             <option value="9">震度7</option>
         </select>
-        <p style="font-size: 14px; color: red; margin-top:5px">注意: 震度4以下を選択した場合、支援者以外は震度4に設定されます</p>
+        <p style="font-size: 14px; color: red; margin-top:5px">注意: 支援者以外が震度3以下を選択した場合、震度3に設定されます</p>
     </div>
 </form>
 
