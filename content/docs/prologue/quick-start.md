@@ -10,6 +10,6 @@ weight: 110
 toc: false
 ---
 
-[こちらをクリックすることでBotを導入することが出来ます。](https://discord.com/api/oauth2/authorize?client_id=460323119651880960&permissions=26624&scope=bot)  
+[こちらをクリックすることでBotを導入することが出来ます。](https://eewp.yukineko.me/invite)  
   
 Botを導入するとセットアップメッセージが自動的に投稿されますので、それに従って地震情報を受け取るためのチャンネルを設定してください。
