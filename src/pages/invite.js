@@ -1,11 +1,13 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 function Page() {
-    window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=460323119651880960&permissions=2147772416&scope=bot'
-
     return (
         <Layout title="招待">
+            <BrowserOnly>
+                {() => { window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=460323119651880960&permissions=2147772416&scope=bot'}}
+            </BrowserOnly>
             <div
                 style={{
                     display: 'flex',
