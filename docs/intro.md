@@ -6,7 +6,7 @@ slug: /intro
 ---
 
 ## EEWPlusBotについて
-Earthquake Early Warning Plus (EEWPlus) Botは2018年から開発されている、地震速報に特化したDiscord向けのBotです。  
+EEWPlusBotは2018年から開発されている、地震速報に特化したDiscord向けのBotです。  
 「すばやく、わかりやすい地震情報を受け取れる」Botを目標に作成しています。  
 また、3回にも亘るリファクタリングにより処理の最適化や高速化・高性能化が行われています。
 
@@ -20,7 +20,7 @@ Botを導入するとセットアップメッセージが自動的に投稿さ�
 :::
 
 ## 公式Discordサーバー
-Earthquake Early Warning Plusの公式Discordサーバーの参加はこちらから！  
+EEWPlusの公式Discordサーバーの参加はこちらから！  
 Botの更新情報やメンテナンス情報をお知らせします。
 
 [https://discord.gg/aqEnrkFfsn](https://discord.gg/aqEnrkFfsn)
