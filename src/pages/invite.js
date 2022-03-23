@@ -1,0 +1,25 @@
+import React from 'react';
+import Layout from '@theme/Layout';
+
+function Page() {
+    window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=460323119651880960&permissions=2147772416&scope=bot'
+
+    return (
+        <Layout title="招待">
+            <div
+                style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    height: '10vh',
+                    fontSize: '20px',
+                }}>
+                <p>
+                    Discordの招待ページにリダイレクトしています...
+                </p>
+            </div>
+        </Layout>
+    );
+}
+
+export default Page;
