@@ -3,10 +3,6 @@ title: スラッシュコマンドが使えない
 slug: /troubleshooting/slashcommand
 ---
 
-### スラッシュコマンドとは
-チャット欄で「/」と入力することでコマンドの候補が出てくる機能です。  
-![img](/img/docs/troubleshooting/slashcommand/slashcommand.png)
-
 ### コマンドの候補が表示されない場合
 Discordのスラッシュコマンドを使用できない場合は権限が付与されていない可能性があります。  
 以下の手順に従って、操作を行うことでスラッシュコマンドを有効化できます。
