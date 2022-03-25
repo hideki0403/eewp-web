@@ -16,7 +16,7 @@ const config = {
   organizationName: 'hideki0403', // Usually your GitHub org/user name.
   projectName: 'eewplus-docs', // Usually your repo name.
   deploymentBranch: 'v2',
-  trailingSlash: false,
+  trailingSlash: true,
 
   presets: [
     [
