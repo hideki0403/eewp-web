@@ -6,7 +6,7 @@ function Page() {
     return (
         <Layout title="招待">
             <BrowserOnly>
-                {() => { window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=460323119651880960&permissions=2147772416&scope=bot'}}
+                {() => { window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=460323119651880960&permissions=2147772416&scope=bot%20applications.commands'}}
             </BrowserOnly>
             <div
                 style={{
