@@ -66,6 +66,8 @@ class Page extends React.Component {
             <Layout title="チャンネル設定ツール">
                 <div className={styles.container}>
                     <h1>チャンネル設定ツール</h1>
+                    <span>設定方法については<Link to="/docs/use/channel">こちら</Link>をご覧ください</span>
+                    <br/>
                     <form>
                         <div onChange={(e) => {this.update({ [e.target.name]: e.target.checked })}}>
                             <Switch name="eew" label="緊急地震速報の投稿" checked />
@@ -108,12 +110,12 @@ class Page extends React.Component {
                             <option value="3">強い揺れ</option>
                         </select> */}
                     </form>
+                    <span>(震度配色はご支援頂いている方のみ設定可能です)</span>
                     <br/>
                     <span>以下の文字列をコピーして設定画面に貼り付けてください</span>
                     <span className={styles.codeBlock}>{this.state.base64}</span>
                     <button onClick={this.copyBase64}>コピーする</button>
                     <span className={styles.copySuccess} style={{ display: this.state.showTips ? 'block' : 'none'}}>コピーしました</span>
-                    <span>(設定方法については<Link to="/docs/use/channel">こちら</Link>をご覧ください)</span>
                 </div>
             </Layout>
         );
