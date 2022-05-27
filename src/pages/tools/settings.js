@@ -13,10 +13,14 @@ class Page extends React.Component {
             tsunami: true,
             edit: true,
             sindo: 4,
-            bitflag: 0
+            color: 0,
+            detect: 0,
+            base64: '',
+            showTips: false
         }
 
         this.update = this.update.bind(this)
+        this.copyBase64 = this.copyBase64.bind(this)
     }
 
     update(e) {
@@ -27,32 +31,30 @@ class Page extends React.Component {
             Object.assign(state, e)
         }
 
-        var flag = 0
-
-        var map = {
-            'eew': 'EEW',
-            'info': 'INFO',
-            'tsunami': 'TSUNAMI',
-            'edit': 'EDIT',
+        const schema_map = {
+            eew: 'a',
+            info: 'b',
+            tsunami: 'c',
+            edit: 'd',
+            sindo: 'e',
+            color: 'f',
+            detect: 'g'
         }
 
-        var bitflag = {
-            EEW: 1 << 0,
-            INFO: 1 << 1,
-            TSUNAMI: 1 << 2,
-            EDIT: 1 << 3,
-        }
+        const json = {}
+        Object.keys(schema_map).forEach(key => {
+            json[schema_map[key]] = +state[key]
+        })
 
-        for (var key in state) {
-            var flagname = map[key]
-            if (!flagname || !state[key]) continue;
+        this.setState({ base64: btoa(JSON.stringify(json))})
+    }
 
-            flag |= bitflag[flagname]
-        }
-
-        flag |= state.sindo << 4
-
-        this.setState({ bitflag: flag.toString(10).toUpperCase()})
+    copyBase64() {
+        navigator.clipboard.writeText(this.state.base64)
+        this.setState({ showTips: true })
+        setTimeout(() => {
+            this.setState({ showTips: false })
+        }, 3000)
     }
 
     componentDidMount() {
@@ -64,6 +66,8 @@ class Page extends React.Component {
             <Layout title="チャンネル設定ツール">
                 <div className={styles.container}>
                     <h1>チャンネル設定ツール</h1>
+                    <span>設定方法については<Link to="/docs/use/channel">こちら</Link>をご覧ください</span>
+                    <br/>
                     <form>
                         <div onChange={(e) => {this.update({ [e.target.name]: e.target.checked })}}>
                             <Switch name="eew" label="緊急地震速報の投稿" checked />
@@ -72,9 +76,9 @@ class Page extends React.Component {
                         </div>
 
                         <label htmlFor="edit">更新方法: </label>
-                        <select name="edit" value={this.state.edit} onChange={(e) => {this.update({edit: e.target.value === 'true'})}}>
-                            <option value="true">編集</option>
-                            <option value="false">新規投稿</option>
+                        <select name="edit" value={this.state.edit} onChange={(e) => {this.update({edit: e.target.value * 1})}}>
+                            <option value="1">編集</option>
+                            <option value="0">新規投稿</option>
                         </select>
 
                         <label htmlFor="sindo">通知震度の設定: </label>
@@ -89,10 +93,29 @@ class Page extends React.Component {
                             <option value="8">震度6強以上</option>
                             <option value="9">震度7以上</option>
                         </select>
-                    </form>
 
-                    <span><span className={styles.strong}>「{this.state.bitflag}」</span>を入力してください</span>
-                    <span>(設定方法については<Link to="/docs/use/channel">こちら</Link>をご覧ください)</span>
+                        <label htmlFor="color">震度配色: </label>
+                        <select name="color" value={this.state.color} onChange={(e) => { this.update({ color: e.target.value * 1 }) }}>
+                            <option value="0">デフォルト</option>
+                            <option value="1">気象庁</option>
+                            <option value="2">NHK</option>
+                            <option value="3">Yahoo</option>
+                        </select>
+
+                        {/* <label htmlFor="detect">地震検知: </label>
+                        <select name="detect" value={this.state.detect} onChange={(e) => { this.update({ detect: e.target.value * 1 }) }}>
+                            <option value="0">通知しない</option>
+                            <option value="1">微弱な揺れ</option>
+                            <option value="2">揺れ</option>
+                            <option value="3">強い揺れ</option>
+                        </select> */}
+                    </form>
+                    <span>(震度配色はご支援頂いている方のみ設定可能です)</span>
+                    <br/>
+                    <span>以下の文字列をコピーして設定画面に貼り付けてください</span>
+                    <span className={styles.codeBlock}>{this.state.base64}</span>
+                    <button onClick={this.copyBase64}>コピーする</button>
+                    <span className={styles.copySuccess} style={{ display: this.state.showTips ? 'block' : 'none'}}>コピーしました</span>
                 </div>
             </Layout>
         );

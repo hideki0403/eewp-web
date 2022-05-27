@@ -32,3 +32,28 @@ select {
 h3 {
     margin-top: 24px;
 }
+
+button {
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.codeBlock {
+    background: var(--ifm-code-background);
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    display: block;
+}
+
+.copySuccess {
+    background: var(--ifm-color-success-contrast-background);
+    color: var(--ifm-color-success);
+    padding: 8px 16px;
+    margin: 16px;
+    border-radius: 8px;
+}
+
+.warningText {
+    color: var(--ifm-color-danger);
+}
