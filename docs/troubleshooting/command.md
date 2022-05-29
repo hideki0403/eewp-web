@@ -1,6 +1,7 @@
 ---
 title: コマンドが使えない
 slug: /troubleshooting/command
+sidebar_position: 1
 ---
 
 :::warning
