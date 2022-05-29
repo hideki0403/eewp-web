@@ -1,6 +1,7 @@
 ---
 title: 地震情報などが投稿されない
 slug: /troubleshooting/message
+sidebar_position: 3
 ---
 
 ### チャンネルを登録していますか？
